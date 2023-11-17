@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.dark-bar {
+  background-color: #333333;
+}
+
+.header-bar {
+  display: flex;
+  list-style-type: none;
+}
+.home {
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.dark-home {
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+
+.img-nav {
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.button-bar {
+  border: none;
+  background-color: transparent;
+  margin-right: 20px;
+}

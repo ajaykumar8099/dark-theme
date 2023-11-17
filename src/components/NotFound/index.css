@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.dark-theme {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark-theme-head {
+  color: white;
+}
+.dark-theme-para {
+  color: white;
+}
+.light-theme {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
